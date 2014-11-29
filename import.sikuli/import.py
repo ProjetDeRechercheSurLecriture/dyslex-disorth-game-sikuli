@@ -4,8 +4,13 @@ type("teammatetiger\tphoneme\n")
 wait("1417281245397.png")
 find(Pattern("1417281964503.png").targetOffset(3,-7))
 doubleClick(Pattern("1417282150528.png").targetOffset(32,-8))
-
-
+find(Pattern("1417282639330.png").similar(0.98).targetOffset(10,9))
+doubleClick(Pattern("1417282700669.png").targetOffset(17,3))
+wait("1417282800116.png")
+find("1417282831172.png")
+doubleClick(Pattern("1417282847986.png").targetOffset(-156,-101))
+type("Code Permanent,N&deg; section,Pr&eacute;nom,Nom de famille,Date de naissance\n migm740610ea,212,Marius,Mignon,2010-06-12\t")
+wait("1417284778255.png")
 doubleClick(Pattern("1417281267711.png").targetOffset(33,-17))
 
 
