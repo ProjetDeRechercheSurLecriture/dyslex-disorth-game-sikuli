@@ -19,6 +19,6 @@ wait(1*60)
 find("1417324891575.png")
 click(Pattern("1417906913335.png").exact().targetOffset(16,-5))
 click(Pattern("1417907925780.png").similar(0.90).targetOffset(-23,5))
- 
+ReferenceRegion = find("PrimaryRegion.png") 
 
 
